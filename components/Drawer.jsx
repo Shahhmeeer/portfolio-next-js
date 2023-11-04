@@ -19,6 +19,7 @@ export default function Drawer() {
             <span className="block">Youtube</span>
           </SheetDescription>
         </SheetHeader>
+        <ModeToggle />
       </SheetContent>
     </Sheet>
   );

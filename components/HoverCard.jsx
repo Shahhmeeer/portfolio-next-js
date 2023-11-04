@@ -8,7 +8,7 @@ export default function HoverCardDemo({name, content, date}) {
   return (
     <HoverCard>
       <HoverCardTrigger asChild>
-        <Button variant="link">@{name.toLowerCase()}</Button>
+        <Button className="text-xs sm:text-sm md:text-base" variant="link">@{name.toLowerCase()}</Button>
       </HoverCardTrigger>
       <HoverCardContent className="w-80">
         <div className="flex justify-between space-x-4">

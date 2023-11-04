@@ -12,7 +12,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="flex-1 flex md:items-center justify-center">
-        <Image src={profile} alt="Shahmeer Asim Image" className="max-w-sm" />
+        <Image src={profile} alt="Shahmeer Asim Image" className="max-w-xs md:max-w-sm lg:max-w-2xl" />
       </div>
     </section>
   );
